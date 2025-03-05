@@ -1,55 +1,312 @@
 {
-  "version" : "1.2.0",
   "triggerKey" : [
     63
   ],
   "actions" : [
     {
+      "name" : "Focus Cycle",
       "cycle" : [
         {
+          "anchor" : 8,
+          "direction" : "Custom",
+          "yPoint" : 0,
+          "width" : 15,
+          "xPoint" : 0,
+          "unit" : 1,
+          "keybind" : [
+
+          ],
+          "height" : 50,
+          "positionMode" : 1,
+          "name" : "0",
+          "sizeMode" : 0
+        },
+        {
+          "sizeMode" : 0,
+          "unit" : 1,
+          "direction" : "Custom",
+          "anchor" : 8,
+          "height" : 50,
+          "yPoint" : 0,
+          "xPoint" : 15,
+          "width" : 15,
+          "keybind" : [
+
+          ],
+          "positionMode" : 1,
+          "name" : "1"
+        },
+        {
+          "direction" : "Custom",
+          "xPoint" : 0,
+          "width" : 20,
+          "name" : "2",
+          "keybind" : [
+
+          ],
+          "positionMode" : 1,
+          "unit" : 1,
+          "anchor" : 8,
+          "sizeMode" : 0,
+          "height" : 50,
+          "yPoint" : 0
+        },
+        {
+          "direction" : "Custom",
+          "xPoint" : 0,
+          "keybind" : [
+
+          ],
+          "unit" : 1,
+          "height" : 50,
+          "sizeMode" : 0,
+          "width" : 30,
+          "positionMode" : 1,
+          "yPoint" : 0,
+          "anchor" : 8,
+          "name" : "3"
+        },
+        {
+          "direction" : "Custom",
+          "width" : 30,
+          "xPoint" : 20,
+          "sizeMode" : 0,
+          "anchor" : 8,
+          "unit" : 1,
+          "positionMode" : 1,
+          "name" : "4",
+          "height" : 100,
+          "yPoint" : 0,
+          "keybind" : [
+
+          ]
+        },
+        {
+          "keybind" : [
+
+          ],
+          "direction" : "Custom",
+          "sizeMode" : 0,
+          "name" : "5",
+          "unit" : 1,
+          "anchor" : 8,
+          "height" : 100,
+          "positionMode" : 1,
+          "xPoint" : 50,
+          "width" : 30,
+          "yPoint" : 0
+        },
+        {
+          "width" : 40,
+          "unit" : 1,
+          "keybind" : [
+
+          ],
+          "direction" : "Custom",
+          "anchor" : 8,
+          "xPoint" : 30,
+          "name" : "6",
+          "yPoint" : 0,
+          "sizeMode" : 0,
+          "positionMode" : 1,
+          "height" : 100
+        },
+        {
+          "yPoint" : 0,
+          "anchor" : 8,
+          "direction" : "Custom",
+          "name" : "7",
+          "height" : 100,
+          "positionMode" : 1,
           "keybind" : [
 
           ],
           "xPoint" : 20,
           "unit" : 1,
-          "positionMode" : 1,
-          "height" : 100,
-          "anchor" : 8,
           "sizeMode" : 0,
-          "name" : "Left",
-          "width" : 30,
-          "direction" : "Custom"
+          "width" : 60
         },
         {
-          "xPoint" : 35,
+          "xPoint" : 70,
+          "unit" : 1,
+          "keybind" : [
+
+          ],
+          "direction" : "Custom",
+          "anchor" : 8,
+          "name" : "8",
+          "sizeMode" : 0,
+          "width" : 15,
+          "positionMode" : 1,
+          "height" : 50,
+          "yPoint" : 0
+        },
+        {
+          "direction" : "Custom",
+          "name" : "9",
+          "yPoint" : 0,
+          "width" : 15,
+          "positionMode" : 1,
+          "xPoint" : 85,
+          "unit" : 1,
+          "sizeMode" : 0,
+          "keybind" : [
+
+          ],
+          "height" : 50,
+          "anchor" : 8
+        },
+        {
+          "positionMode" : 1,
+          "sizeMode" : 0,
+          "name" : "10",
+          "unit" : 1,
+          "direction" : "Custom",
+          "height" : 50,
+          "yPoint" : 0,
+          "width" : 20,
+          "xPoint" : 80,
+          "anchor" : 8,
+          "keybind" : [
+
+          ]
+        },
+        {
+          "direction" : "Custom",
+          "unit" : 1,
+          "anchor" : 8,
           "width" : 30,
+          "height" : 50,
+          "keybind" : [
+
+          ],
+          "yPoint" : 0,
+          "name" : "11",
+          "sizeMode" : 0,
+          "positionMode" : 1,
+          "xPoint" : 70
+        },
+        {
+          "positionMode" : 1,
+          "width" : 15,
+          "direction" : "Custom",
+          "sizeMode" : 0,
+          "name" : "12",
+          "yPoint" : 50,
+          "keybind" : [
+
+          ],
+          "unit" : 1,
+          "anchor" : 8,
+          "xPoint" : 0,
+          "height" : 50
+        },
+        {
+          "positionMode" : 1,
+          "width" : 15,
+          "yPoint" : 50,
+          "xPoint" : 15,
+          "unit" : 1,
+          "height" : 50,
+          "name" : "13",
+          "keybind" : [
+
+          ],
+          "direction" : "Custom",
+          "sizeMode" : 0,
+          "anchor" : 8
+        },
+        {
+          "unit" : 1,
+          "yPoint" : 50,
+          "width" : 20,
           "positionMode" : 1,
           "anchor" : 8,
           "keybind" : [
 
           ],
-          "name" : "Center",
+          "xPoint" : 0,
           "direction" : "Custom",
+          "height" : 50,
+          "name" : "14",
+          "sizeMode" : 0
+        },
+        {
+          "name" : "15",
+          "width" : 30,
+          "positionMode" : 1,
+          "unit" : 1,
           "sizeMode" : 0,
-          "height" : 100,
+          "yPoint" : 50,
+          "direction" : "Custom",
+          "anchor" : 8,
+          "height" : 50,
+          "keybind" : [
+
+          ],
+          "xPoint" : 0
+        },
+        {
+          "positionMode" : 1,
+          "name" : "16",
+          "anchor" : 8,
+          "height" : 50,
+          "yPoint" : 50,
+          "keybind" : [
+
+          ],
+          "sizeMode" : 0,
+          "width" : 15,
+          "direction" : "Custom",
+          "xPoint" : 70,
           "unit" : 1
         },
         {
+          "anchor" : 8,
+          "positionMode" : 1,
+          "unit" : 1,
+          "direction" : "Custom",
+          "height" : 50,
+          "yPoint" : 50,
+          "name" : "17",
+          "sizeMode" : 0,
           "keybind" : [
 
           ],
-          "xPoint" : 50,
-          "unit" : 1,
-          "name" : "Right",
-          "width" : 30,
+          "xPoint" : 85,
+          "width" : 15
+        },
+        {
           "anchor" : 8,
+          "width" : 20,
           "positionMode" : 1,
-          "height" : 100,
+          "keybind" : [
+
+          ],
+          "name" : "18",
+          "unit" : 1,
+          "height" : 50,
+          "direction" : "Custom",
+          "xPoint" : 80,
+          "yPoint" : 50,
+          "sizeMode" : 0
+        },
+        {
+          "positionMode" : 1,
+          "keybind" : [
+
+          ],
+          "unit" : 1,
+          "anchor" : 8,
+          "direction" : "Custom",
+          "height" : 50,
+          "xPoint" : 70,
+          "yPoint" : 50,
           "sizeMode" : 0,
-          "direction" : "Custom"
+          "width" : 30,
+          "name" : "19"
         }
       ],
-      "name" : "Focus Cycle",
       "keybind" : [
         3
       ],
@@ -62,193 +319,193 @@
       "direction" : "Smaller"
     },
     {
+      "direction" : "Larger",
       "keybind" : [
         24
-      ],
-      "direction" : "Larger"
+      ]
     },
     {
-      "unit" : 1,
-      "width" : 20.25291313559322,
-      "name" : "Tenths Cycle",
-      "anchor" : 2,
-      "direction" : "Cycle",
-      "positionMode" : 1,
       "cycle" : [
         {
-          "anchor" : 8,
-          "height" : 50,
-          "positionMode" : 1,
-          "unit" : 1,
-          "width" : 20,
-          "xPoint" : 0,
-          "yPoint" : 0,
-          "name" : "Top Left",
-          "direction" : "Custom",
+          "sizeMode" : 0,
           "keybind" : [
 
           ],
-          "sizeMode" : 0
+          "name" : "Top Left",
+          "anchor" : 8,
+          "unit" : 1,
+          "height" : 50,
+          "yPoint" : 0,
+          "direction" : "Custom",
+          "width" : 20,
+          "positionMode" : 1,
+          "xPoint" : 0
         },
         {
+          "anchor" : 8,
           "positionMode" : 1,
           "unit" : 1,
-          "anchor" : 8,
-          "name" : "Top Left-Center",
+          "xPoint" : 20,
+          "yPoint" : 0,
           "keybind" : [
 
           ],
-          "height" : 50,
+          "name" : "Top Left-Center",
           "sizeMode" : 0,
-          "yPoint" : 0,
           "width" : 20,
-          "xPoint" : 20,
+          "height" : 50,
           "direction" : "Custom"
         },
         {
+          "width" : 20,
+          "positionMode" : 1,
+          "yPoint" : 0,
+          "height" : 50,
           "xPoint" : 40,
-          "direction" : "Custom",
-          "yPoint" : 0,
           "name" : "Top Center",
-          "positionMode" : 1,
-          "unit" : 1,
           "anchor" : 8,
           "keybind" : [
 
           ],
-          "sizeMode" : 0,
-          "width" : 20,
-          "height" : 50
+          "direction" : "Custom",
+          "unit" : 1,
+          "sizeMode" : 0
         },
         {
-          "anchor" : 8,
-          "height" : 50,
-          "name" : "Top Right-Center",
           "unit" : 1,
+          "keybind" : [
+
+          ],
+          "positionMode" : 1,
+          "height" : 50,
           "direction" : "Custom",
+          "sizeMode" : 0,
           "xPoint" : 60,
-          "width" : 20,
-          "sizeMode" : 0,
-          "keybind" : [
-
-          ],
-          "positionMode" : 1,
-          "yPoint" : 0
-        },
-        {
-          "unit" : 1,
           "yPoint" : 0,
-          "xPoint" : 80,
-          "keybind" : [
-
-          ],
-          "sizeMode" : 0,
-          "positionMode" : 1,
+          "name" : "Top Right-Center",
           "width" : 20,
-          "height" : 50,
-          "direction" : "Custom",
-          "name" : "Top Right",
           "anchor" : 8
         },
         {
-          "unit" : 1,
-          "height" : 50,
-          "keybind" : [
-
-          ],
           "sizeMode" : 0,
-          "anchor" : 8,
-          "xPoint" : 0,
-          "name" : "Bottom Left",
+          "width" : 20,
           "direction" : "Custom",
-          "width" : 20,
+          "unit" : 1,
           "positionMode" : 1,
-          "yPoint" : 50
-        },
-        {
-          "width" : 20,
-          "yPoint" : 50,
-          "name" : "Bottom Left-Center",
+          "yPoint" : 0,
+          "xPoint" : 80,
           "anchor" : 8,
           "height" : 50,
-          "positionMode" : 1,
-          "unit" : 1,
-          "direction" : "Custom",
-          "sizeMode" : 0,
-          "xPoint" : 20,
+          "name" : "Top Right",
           "keybind" : [
 
           ]
         },
         {
-          "positionMode" : 1,
-          "width" : 20,
-          "yPoint" : 50,
-          "anchor" : 8,
-          "direction" : "Custom",
-          "name" : "Bottom Center",
+          "height" : 50,
           "keybind" : [
 
           ],
-          "xPoint" : 40,
-          "height" : 50,
+          "direction" : "Custom",
+          "anchor" : 8,
+          "positionMode" : 1,
+          "name" : "Bottom Left",
           "sizeMode" : 0,
+          "width" : 20,
+          "xPoint" : 0,
+          "yPoint" : 50,
           "unit" : 1
         },
         {
-          "width" : 20,
-          "sizeMode" : 0,
-          "xPoint" : 60,
           "positionMode" : 1,
-          "anchor" : 8,
-          "height" : 50,
+          "name" : "Bottom Left-Center",
           "unit" : 1,
+          "keybind" : [
+
+          ],
+          "xPoint" : 20,
+          "height" : 50,
+          "anchor" : 8,
+          "width" : 20,
+          "direction" : "Custom",
+          "yPoint" : 50,
+          "sizeMode" : 0
+        },
+        {
+          "name" : "Bottom Center",
+          "width" : 20,
+          "height" : 50,
           "yPoint" : 50,
           "keybind" : [
 
           ],
-          "name" : "Bottom Right-Center",
-          "direction" : "Custom"
+          "sizeMode" : 0,
+          "direction" : "Custom",
+          "unit" : 1,
+          "positionMode" : 1,
+          "xPoint" : 40,
+          "anchor" : 8
         },
         {
           "keybind" : [
 
           ],
-          "height" : 50,
           "positionMode" : 1,
+          "name" : "Bottom Right-Center",
           "yPoint" : 50,
-          "width" : 20,
+          "height" : 50,
+          "direction" : "Custom",
           "sizeMode" : 0,
           "unit" : 1,
-          "xPoint" : 80,
-          "direction" : "Custom",
+          "anchor" : 8,
+          "width" : 20,
+          "xPoint" : 60
+        },
+        {
+          "width" : 20,
           "name" : "Bottom Right",
-          "anchor" : 8
+          "sizeMode" : 0,
+          "keybind" : [
+
+          ],
+          "direction" : "Custom",
+          "unit" : 1,
+          "anchor" : 8,
+          "positionMode" : 1,
+          "xPoint" : 80,
+          "yPoint" : 50,
+          "height" : 50
         }
       ],
-      "height" : 49.54007768361582,
+      "unit" : 1,
       "keybind" : [
         105
       ],
-      "sizeMode" : 0
+      "sizeMode" : 0,
+      "width" : 20.25291313559322,
+      "anchor" : 2,
+      "direction" : "Cycle",
+      "name" : "Tenths Cycle",
+      "height" : 49.54007768361582,
+      "positionMode" : 1
     },
     {
-      "direction" : "Maximize",
       "keybind" : [
         49
-      ]
+      ],
+      "direction" : "Maximize"
     },
     {
-      "direction" : "Center",
       "keybind" : [
         36
-      ]
+      ],
+      "direction" : "Center"
     },
     {
-      "name" : "Top Cycle",
       "keybind" : [
         126
       ],
+      "name" : "Top Cycle",
       "direction" : "Cycle",
       "cycle" : [
         {
@@ -258,10 +515,10 @@
           ]
         },
         {
+          "direction" : "TopThird",
           "keybind" : [
 
-          ],
-          "direction" : "TopThird"
+          ]
         },
         {
           "direction" : "TopTwoThirds",
@@ -272,57 +529,57 @@
       ]
     },
     {
+      "direction" : "Cycle",
       "keybind" : [
         125
       ],
+      "name" : "Bottom Cycle",
       "cycle" : [
         {
-          "direction" : "BottomHalf",
+          "keybind" : [
+
+          ],
+          "direction" : "BottomHalf"
+        },
+        {
+          "direction" : "BottomThird",
           "keybind" : [
 
           ]
         },
         {
+          "direction" : "BottomTwoThirds",
           "keybind" : [
 
-          ],
-          "direction" : "BottomThird"
-        },
-        {
-          "keybind" : [
-
-          ],
-          "direction" : "BottomTwoThirds"
+          ]
         }
-      ],
-      "name" : "Bottom Cycle",
-      "direction" : "Cycle"
+      ]
     },
     {
       "keybind" : [
         124
       ],
-      "direction" : "Cycle",
       "cycle" : [
+        {
+          "direction" : "RightHalf",
+          "keybind" : [
+
+          ]
+        },
         {
           "keybind" : [
 
           ],
-          "direction" : "RightHalf"
+          "direction" : "RightThird"
         },
         {
-          "direction" : "RightThird",
           "keybind" : [
 
-          ]
-        },
-        {
-          "direction" : "RightTwoThirds",
-          "keybind" : [
-
-          ]
+          ],
+          "direction" : "RightTwoThirds"
         }
       ],
+      "direction" : "Cycle",
       "name" : "Right Cycle"
     },
     {
@@ -331,10 +588,10 @@
       ],
       "cycle" : [
         {
-          "direction" : "LeftHalf",
           "keybind" : [
 
-          ]
+          ],
+          "direction" : "LeftHalf"
         },
         {
           "direction" : "LeftThird",
@@ -343,42 +600,43 @@
           ]
         },
         {
-          "direction" : "LeftTwoThirds",
           "keybind" : [
 
-          ]
+          ],
+          "direction" : "LeftTwoThirds"
         }
       ],
       "direction" : "Cycle",
       "name" : "Left Cycle"
     },
     {
+      "direction" : "TopLeftQuarter",
       "keybind" : [
-        123,
-        126
-      ],
-      "direction" : "TopLeftQuarter"
+        126,
+        123
+      ]
     },
     {
       "direction" : "TopRightQuarter",
       "keybind" : [
-        124,
-        126
+        126,
+        124
       ]
     },
     {
-      "direction" : "BottomRightQuarter",
       "keybind" : [
         124,
         125
-      ]
+      ],
+      "direction" : "BottomRightQuarter"
     },
     {
       "direction" : "BottomLeftQuarter",
       "keybind" : [
-        123,
-        125
+        125,
+        123
       ]
     }
-  ]
+  ],
+  "version" : "1.2.0"
 }
